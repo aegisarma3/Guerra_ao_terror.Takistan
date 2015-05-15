@@ -1,1 +1,0 @@
-["<t size='1.5' color='#7A0A0A'>Guerra ao Terror :<t font = 'puristaLight' t size='0.5' color='#FFFFFF'> v2<br/><t font = 'puristaLight' t size='0.6' color='#FFFFFF'>por Collumbus V:0.6</t>",0,0.2,6,2,0.0] spawn bis_fnc_dynamictext;
