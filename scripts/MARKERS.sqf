@@ -1,9 +1,9 @@
 
-_markerstr1 = createMarker ["marker1", [4591.17,7294.84]]; markerstr1 setMarkerShape "ICON"; "marker1" setMarkerType "SELECT"; "marker1" setMarkerColor "ColorCivilian"; "marker1" setMarkertextLocal "Sqdn.Alpha";
+_markerstr1 = createMarker ["marker1", [4591.17,7294.84]]; markerstr1 setMarkerShape "ICON"; "marker1" setMarkerType "SELECT"; "marker1" setMarkerColor "ColorCivilian"; "marker1" setMarkertextLocal "Alpha";
 
-_markerstr2 = createMarker ["marker2", [4356.21,4955.46]]; markerstr2 setMarkerShape "ICON"; "marker2" setMarkerType "SELECT"; "marker2" setMarkerColor "ColorCivilian"; "marker2" setMarkertextLocal "Sqdn.Bravo";
+_markerstr2 = createMarker ["marker2", [4356.21,4955.46]]; markerstr2 setMarkerShape "ICON"; "marker2" setMarkerType "SELECT"; "marker2" setMarkerColor "ColorCivilian"; "marker2" setMarkertextLocal "Bravo";
 
-_markerstr3 = createMarker ["marker3", [5965.64,4971.31]]; markerstr3 setMarkerShape "ICON"; "marker3" setMarkerType "SELECT"; "marker3" setMarkerColor "ColorCivilian"; "marker3" setMarkertextLocal "Sqdn.Charlie";
+_markerstr3 = createMarker ["marker3", [5965.64,4971.31]]; markerstr3 setMarkerShape "ICON"; "marker3" setMarkerType "SELECT"; "marker3" setMarkerColor "ColorCivilian"; "marker3" setMarkertextLocal "Charlie";
 
 _markerstr4 = createMarker ["marker4", [5159.17,6071.49]]; markerstr4 setMarkerShape "ICON"; "marker4" setMarkerType "O_HQ"; "marker4" setMarkerColor "ColorCivilian"; "marker4" setMarkertextLocal "Antigo HQ AFF";
 
