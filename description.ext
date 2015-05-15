@@ -1,0 +1,94 @@
+﻿// delete the following line when the lxOPS is no more used
+//#include "LxOPS\lxOPS_dlg.hpp"
+
+
+author = "Collumbus - AEGIS"; 
+onLoadName = "Guerra ao Terror ";
+onLoadMission = "Não é preciso ter olhos abertos para ver o sol, nem é preciso ter ouvidos afiados para ouvir o trovão. Para ser vitorioso você precisa ver o que não está visível. - Sun Tzu"; 
+loadScreen = "MAIN.jpg";
+overviewPicture = "MAIN.jpg";
+overviewText = ".";
+respawn = 3;
+respawndelay = 600;
+RespawnDialog = 0;
+
+
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 60;
+};
+
+
+class CfgDebriefing
+{  
+	class End1
+	{
+		title = "SUCCESS";
+		subtitle = "ALL TASKS COMPLETED";
+		description = "Nice work soldiers!";
+		pictureBackground = "MAIN.jpg";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+};
+
+
+//Alarmes, sons e falas
+
+class CfgSounds
+{
+// List of sounds (.ogg files without the .ogg extension)
+sounds[] = {};
+
+// Definition for each sound
+class allah
+{
+// Name for mission editor
+name = "allah"; 
+//Path of the .ogg file. since it's in the same folder just use the filename
+sound[] = {\z1\sounds\allah.ogg, 1, 1.0}; 
+titles[] = {};
+};
+
+class alarme1
+{
+// Name for mission editor
+name = "alarme1"; 
+//Path of the .ogg file. since it's in the same folder just use the filename
+sound[] = {\z1\sounds\alarme1.ogg, 1, 1.0}; 
+titles[] = {};
+}
+
+ class sound1
+    {
+        name = "sound_1";
+        sound[] = {\z1\sounds\VB.ogg, db-10,1.0};
+        titles[] = {};
+    };
+
+class nuke
+{
+		name = "";
+		sound[] = {"nuke\nuke.ogg", db+0, 1.0};
+};
+
+	
+};
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// NUKE RELATED STUFF
+/////////////////////////////////////////////////////////////////////////////////////////
+class CfgMusic
+{
+	tracks[]={};
+
+	class nuke
+	{
+		name = "";
+		sound[] = {"nuke\nuke.ogg", db+10, 1.0};
+	};	
+};
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
