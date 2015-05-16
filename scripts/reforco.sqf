@@ -2,7 +2,7 @@
 
 if(!isServer)exitWith{};
 
-_timeleft2=900000;
+_timeleft2=1200000;
 
 while {_timeleft2 > 0} do {
 
